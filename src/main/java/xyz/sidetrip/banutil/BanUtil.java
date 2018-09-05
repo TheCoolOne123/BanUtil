@@ -58,12 +58,6 @@ public class BanUtil implements Runnable {
     public static final Config CONFIG = new Config(STATUS);
 
     public static final String WELCOME = String.join("\n",
-            "\n  ____          _   _ _    _ _______ _____ _      ",
-            " |  _ \\   /\\   | \\ | | |  | |__   __|_   _| |     ",
-            " | |_) | /  \\  |  \\| | |  | |  | |    | | | |     ",
-            " |  _ < / /\\ \\ | . ` | |  | |  | |    | | | |     ",
-            " | |_) / ____ \\| |\\  | |__| |  | |   _| |_| |____ ",
-            " |____/_/    \\_\\_| \\_|\\____/   |_|  |_____|______|",
             "                                                  ",
             "   ---------- Ban them, ban them all! ----------  ",
             "   [Version = " + VERSION + "]\n");
@@ -72,7 +66,7 @@ public class BanUtil implements Runnable {
 
     public static final long REQUIRED_PERMISSIONS = 298077382;
 
-    public static final String REPO = "https://github.com/MacDue/BanUtil";
+    public static final String REPO = "https://github.com/TheCoolOne123/BanUtil";
 
     /*
     BanUtil! A very simple stateless moderation bot.

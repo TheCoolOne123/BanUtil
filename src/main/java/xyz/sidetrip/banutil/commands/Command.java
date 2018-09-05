@@ -23,6 +23,6 @@ public abstract class Command {
 
 	@Override
 	public String toString() {
-		return "[CMD_KEY] "+this.getName();
+		return "[CMD_KEY]"+this.getName();
 	}
 }
